@@ -127,7 +127,7 @@ section {
 /* FONTS CSS START HERE */
 @font-face {
   font-family: 'SF Pro Display';
-  src: url("../fonts/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/SFProDisplay-Medium.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/NetHir-De/spotify/fonts/SFProDisplay-Medium.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/NetHir-De/spotify/fonts/SFProDisplay-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -135,7 +135,7 @@ section {
 
 @font-face {
   font-family: "Helvetica";
-  src: url("../fonts/Helvetica.woff2") format("woff2"), url("../fonts/Helvetica.woff") format("woff");
+  src: url("https://cdn.jsdelivr.net/gh/NetHir-De/spotify/fonts/Helvetica.woff2") format("woff2"), url("https://cdn.jsdelivr.net/gh/NetHir-De/spotify/fonts/Helvetica.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -419,7 +419,7 @@ select:-webkit-autofill:active {
 .product_wrapper {
   margin: 0;
   padding: 0;
-  background: url("../images/banner-bg-1.png") no-repeat center;
+  background: url("https://cdn.jsdelivr.net/gh/NetHir-De/spotify/images/banner-bg-1.png") no-repeat center;
   background-size: cover;
 }
 
@@ -753,7 +753,7 @@ select:-webkit-autofill:active {
 }
 
 .product_wrapper .product_block .form_wrapper .form_block .form-group select {
-  background-image: url("../images/dropdown.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/NetHir-De/spotify/images/dropdown.png");
   background-repeat: no-repeat;
   background-position: right 20px center;
   color: #888888;
@@ -790,7 +790,7 @@ select:-webkit-autofill:active {
 }
 
 .product_wrapper .product_block .form_wrapper .form_block .form-group .form-check .form-check-input:checked[type="checkbox"] {
-  background: url("../images/right.svg") no-repeat;
+  background: url("https://cdn.jsdelivr.net/gh/NetHir-De/spotify/images/right.svg") no-repeat;
 }
 
 .product_wrapper .product_block .form_wrapper .form_block .form-group .form-check label {
